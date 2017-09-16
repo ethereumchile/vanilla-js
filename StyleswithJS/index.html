@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Oxygen|Poppins:700i" rel="stylesheet">
+</head>
+<body>
+<style>
+	*,
+*:before,
+*:after{
+    box-sizing: inherit ;
+}
+</style>
+
+<nav id="nav">
+	<div id="logo">LOGO</div>
+	<div id="toggle"></div>
+</nav>
+<div id="container">
+	<div id="card">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum voluptas, illum odit 
+	</div>
+
+	<div id="card2">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum voluptas, illum odit 
+</div>
+</div>
+
+<script>
+	let nav = document.getElementById('nav')
+
+	let logo = document.getElementById('logo')
+	logo.style.padding='21px'
+	logo.style.backgroundColor='black'
+	logo.style.color='white'
+
+	let bdy = document.body
+	bdy.style.boxSizing='border'
+	bdy.style.margin='0px'
+	bdy.style.backgroundColor='#eee'
+
+	let container = document.getElementById('container')
+	container.style.display='flex'
+	container.style.flexWrap='wrap'
+	container.style.justifyContent='space-around'
+
+
+	let card = document.getElementById('card') 
+	card.style.padding='30px'
+	card.style.width='60%'
+	card.style.marginBottom='33px'
+	card.style.marginTop='30px'
+	card.style.fontSize='27px'
+	card.style.fontFamily='Poppins'
+	card.style.color='white'
+	card.style.backgroundColor='#16ba91'
+
+	let card2 = document.getElementById('card2')
+	card2.style.padding='30px'
+	card2.style.width='60%'
+	card2.style.marginBottom='33px'
+	card2.style.fontSize='27px'
+	card2.style.fontFamily='Poppins'
+	card2.style.color='white'
+	card2.style.backgroundColor='#6141f2'
+
+</script>
+</body>
+</html>
