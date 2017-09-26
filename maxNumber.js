@@ -1,4 +1,4 @@
-let maxNumber = function(number1, number2){
+var maxNumber = function(number1, number2){
 	if (number1 > number2){
 		return number1;
 	};
